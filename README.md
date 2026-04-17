@@ -1,16 +1,41 @@
-# React + Vite
+🛍️ Fake eCommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A skeleton eCommerce site built with React, consuming data from FakeStoreAPI.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://fake-ecommerce-project.onrender.com
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📦 Product listing from FakeStoreAPI
+🗂️ Category filtering
+🛒 Add/remove items from cart
+💶 Prices formatted in Euro (€)
+💾 Cart persisted with localStorage
+📱 Responsive design (mobile & desktop)
+🎨 Styled with Tailwind CSS v4 + DaisyUI v5
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React — UI library
+Vite — Build tool
+React Router v6 — Client-side routing with useOutletContext
+Tailwind CSS v4 — Utility-first CSS
+DaisyUI v5 — Component library
+FakeStoreAPI — Product data
+localStorage — Cart persistence
+
+⚙️ Getting Started
+
+# Clone the repository
+git clone https://github.com/GoulartHenrique/Fake-eCommerce---Project.git
+
+# Navigate to the project folder
+cd Fake-eCommerce---Project
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
