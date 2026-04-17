@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.category-btn {
+  @apply px-3 py-1 rounded-full border transition-all duration-200 cursor-pointer hover:bg-white hover:text-black hover:border-white;
+}
+
+.category-btn-active {
+  @apply px-3 py-1 rounded-full border bg-white text-black border-white;
+}
+
+.add-to-cart-btn {
+  @apply px-3 py-1 rounded-full border transition-all duration-200 cursor-pointer hover:bg-white hover:text-black hover:border-white mt-2 w-full;
+}
