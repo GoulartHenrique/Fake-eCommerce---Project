@@ -44,16 +44,6 @@ Screenshots
 
 ---
 
-## Key Concepts
-
-- **`useOutletContext`** — shares cart state between routes without prop drilling
-- **`localStorage`** — persists cart data across page reloads
-- **`Promise.all`** — fetches products and categories simultaneously
-- **`@apply`** — reusable component classes in `index.css`
-- **Responsive design** — mobile cards + desktop table in Cart page
-
----
-
 ## How to run
 
 ```bash
