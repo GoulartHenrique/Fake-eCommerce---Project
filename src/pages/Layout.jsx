@@ -15,13 +15,13 @@ function Layout() {
   }
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Navbar cart={cart} />
-      <main className="container mx-auto">
+      <main className="flex-1 container mx-auto">
         <Outlet context={{ cart, setCart: updateCart }} />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
